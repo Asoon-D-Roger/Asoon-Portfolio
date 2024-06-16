@@ -54,8 +54,8 @@ const Contact = () => {
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
                 "I'm excited to collaborate with you! Please fill out the form
-                below to tell us more about your project or inquiry, and we
-                will get back to you as soon as possible."
+                below to tell us more about your project or inquiry, and we will
+                get back to you as soon as possible."
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
