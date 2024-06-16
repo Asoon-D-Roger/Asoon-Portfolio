@@ -5,13 +5,13 @@ import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
 import Swiper from "swiper";
 
 const WorkSliderBtns = ({ containerStyles, btnStyles, iconsStyles }) => {
-  const Swiper = useSwiper();
+  const swiper = useSwiper();
   return (
     <div className={containerStyles}>
-      <button className={btnStyles} onClick={() => Swiper.slidePrev()}>
+      <button className={btnStyles} onClick={() => swiper.slidePrev()}>
         <PiCaretLeftBold className={iconsStyles} />
       </button>
-      <button className={btnStyles} onClick={() => Swiper.slideNext()}>
+      <button className={btnStyles} onClick={() => swiper.slideNext()}>
         <PiCaretRightBold className={iconsStyles} />
       </button>
     </div>
