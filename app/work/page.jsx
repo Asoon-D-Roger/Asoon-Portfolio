@@ -34,7 +34,7 @@ const projects = [
       { name: "JavaScript" },
     ],
     image: "/assets/work/weatherapp.png",
-    live: "",
+    live: "https://weatherapp-60030360180.development.catalystserverless.in/app/index.html",
     github: "https://github.com/Asoon-D-Roger/Weather-App",
   },
   {
@@ -50,7 +50,7 @@ const projects = [
       { name: "JavaScript" },
     ],
     image: "/assets/work/todolist.jpg",
-    live: "",
+    live: "https://to-do-list-60030360180.development.catalystserverless.in/app/index.html",
     github: "https://github.com/Asoon-D-Roger/To-Do-List",
   },
   {
@@ -61,7 +61,7 @@ const projects = [
       "This project is a simple slot machine game developed using JavaScript and Node.js. It allows users to interact with a command-line interface to place bets, choose the number of lines to bet on, and see if they win based on random outcomes.",
     stack: [{ name: "JavaScript" }, { name: "Node.Js" }],
     image: "/assets/work/slotMachine.jpg",
-    live: "",
+    live: "https://github.com/Asoon-D-Roger/Slot_Machine-Game",
     github: "https://github.com/Asoon-D-Roger/Slot_Machine-Game",
   },
   {
@@ -72,24 +72,8 @@ const projects = [
       "Developed a console-based XOX (Tic-Tac-Toe) game using Python, providing a user-friendly interface for two players. Implemented game logic for detecting winning conditions, draw scenarios, and input validation to ensure a smooth and error-free gaming experience.",
     stack: [{ name: "Python" }],
     image: "/assets/work/xoxgame.png",
-    live: "",
+    live: "https://github.com/Asoon-D-Roger/XOX-Game-Tic-Tac-Toe-",
     github: "https://github.com/Asoon-D-Roger/XOX-Game-Tic-Tac-Toe-",
-  },
-  {
-    num: "05",
-    category: "My Portfolio",
-    title: "Project 5",
-    description:
-      "This is a personal portfolio website designed and developed to showcase my projects, skills, and professional background. The portfolio is built using React for a dynamic and responsive user interface and Tailwind CSS for modern and maintainable styling and Next.Js for executing JavaScript on the server side.",
-    stack: [
-      { name: "React.Js" },
-      { name: "Tailwind.css" },
-      { name: "Next.Js" },
-      { name: "JavaScript" },
-    ],
-    image: "/assets/work/portfolio.png",
-    live: "",
-    github: "",
   },
 ];
 
@@ -110,7 +94,7 @@ const Work = () => {
         opacity: 1,
         transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
       }}
-      className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
+      className="min-h-[80vh] flex flex-col justify-center py-10 xl:px-0"
     >
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
@@ -153,7 +137,7 @@ const Work = () => {
                 <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                      <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
                         <BsArrowUpRight className="text-white text-3xl hover:text-accent" />
                       </TooltipTrigger>
                       <TooltipContent>
@@ -167,7 +151,7 @@ const Work = () => {
                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                      <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
                         <BsGithub className="text-white text-3xl hover:text-accent" />
                       </TooltipTrigger>
                       <TooltipContent>

@@ -24,7 +24,7 @@ import {
 const about = {
   title: "About me",
   description:
-    "Aspiring Python Full-Stack Developer eager to kickstart a career in web development. Proficient in Python programming language and enthusiastic about learning front-end and back-end technologies to build robust web applications. Solid understanding of HTML, CSS, and JavaScript, with a keen interest in frameworks like Django and MongoDB for back-end development and Bootstrap and SASS for front-end development. Strong problem-solving skills, coupled with a passion for coding and a drive to continuously enhance skills. Ready to contribute positively to dynamic development teams and excited to take on new challenges in the field of software engineering.",
+    "Aspiring Python Full-Stack Developer with a passion for web development. Proficient in Python and familiar with HTML, CSS, and JavaScript. Eager to learn front-end frameworks like Bootstrap and SASS, and back-end technologies like Django and MongoDB. Strong problem-solving skills and a drive to continuously improve. Excited to contribute to dynamic teams and tackle new challenges in software engineering.",
   info: [
     {
       fieldName: "Name",
@@ -73,11 +73,11 @@ const experience = {
       position: "Full-Stack Developer",
       duration: "2023 - 2024",
     },
-    {
-      company: "Code Clash '24 held by Ocean Academy",
-      position: "Qualified as a Finalist",
-      duration: "May 10, 2024",
-    },
+    // {
+    //   company: "Code Clash '24 held by Ocean Academy",
+    //   position: "Qualified as a Finalist",
+    //   duration: "May 10, 2024",
+    // },
   ],
 };
 
@@ -88,9 +88,9 @@ const education = {
   description: "Here's my Qualification details.",
   items: [
     {
-      institution: "Ocean Academy",
-      degree: "Python Full-Stack Development",
-      duration: "2023 - 2024",
+      institution: "Dr. Ambedkar Global Law Institute",
+      degree: "BA,LLB(HONS)",
+      duration: "2016 - 2021",
     },
     {
       institution: "Bharathidasan University",
@@ -98,9 +98,9 @@ const education = {
       duration: "2023 - Present",
     },
     {
-      institution: "Dr. Ambedkar Global Law Institute",
-      degree: "BA,LLB(HONS)",
-      duration: "2016 - 2021",
+      institution: "Ocean Academy",
+      degree: "Python Full-Stack Development",
+      duration: "2023 - 2024",
     },
     {
       institution: "Maruthi Hr Sec School",
@@ -145,22 +145,6 @@ const skills = {
       icon: <FaSass />,
       name: "Sass",
     },
-    // {
-    //   icon: <FaGit />,
-    //   name: "Git",
-    // },
-    // {
-    //   icon: <FaGithub />,
-    //   name: "GitHub",
-    // },
-    {
-      icon: <FaNodeJs />,
-      name: "Did a project with node.jS",
-    },
-    {
-      icon: <FaReact />,
-      name: "Built my Portfolio with react.js",
-    },
     {
       icon: <SiDjango />,
       name: "Django",
@@ -168,6 +152,22 @@ const skills = {
     {
       icon: <SiMongodb />,
       name: "MongoDB",
+    },
+    {
+      icon: <FaGit />,
+      name: "Git",
+    },
+    {
+      icon: <FaGithub />,
+      name: "GitHub",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "Did a project with node.jS",
+    },
+    {
+      icon: <FaReact />,
+      name: "Built my Portfolio with react.js",
     },
     {
       icon: <SiTailwindcss />,
@@ -291,6 +291,7 @@ const Resume = () => {
                     {skills.description}
                   </p>
                 </div>
+                <ScrollArea className="h-[350px]">
                 <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
                   {skills.skillList.map((skill, index) => {
                     return (
@@ -314,6 +315,8 @@ const Resume = () => {
                     );
                   })}
                 </ul>
+                </ScrollArea>
+                
               </div>
             </TabsContent>
 
@@ -345,6 +348,7 @@ const Resume = () => {
           </div>
         </Tabs>
       </div>
+      
     </motion.div>
   );
 };

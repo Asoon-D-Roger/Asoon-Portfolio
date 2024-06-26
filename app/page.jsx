@@ -12,16 +12,16 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div
           className="flex flex-col xl:flex-row items-center justify-between 
-            xl:pt-1 xl:pb-24"
+            xl:pt-1 xl:pb-20"
         >
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Python Full-Stack Developer</span>
-            <h1 className="h1 mb-6">
+            <h1 className="h1 mb-4">
               Hello I'm <br />{" "}
               <span className="h1 text-accent">Asoon Subbarayan</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] mb-8 text-white/80">
               I excel at crafting elegent digital experience and I am proficient
               in various programming languages and technologies.
             </p>
@@ -33,8 +33,9 @@ const Home = () => {
                 className="uppercase flex 
                         items-center gap-2"
               >
-                <a href="#"></a>
-                <span>Download CV</span>
+                <a href="assets/resume/asoons_resume.pdf">
+                  <span>Download CV</span>
+                </a>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
