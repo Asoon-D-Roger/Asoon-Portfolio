@@ -29,7 +29,7 @@ const services = [
     num: "04",
     title: "Version Control",
     description:
-      "Managing code versions using Git and collaborating via platforms like GitHub, GitLab.",
+      "Managing code versions using Git and collaborating via platforms like Git, GitHub, GitLab.",
     href: "",
   },
 ];
@@ -62,14 +62,14 @@ const Services = () => {
                   >
                     {service.num}
                   </div>
-                  <Link
+                  {/* <Link
                     href={service.href}
                     className="w-[60px] h-[60px] rounded-full
                    bg-white group-hover:bg-accent transition-all duration-500
                     flex justify-center items-center hover:-rotate-45"
                   >
                     <BsArrowDownRight className="text-primary text-3xl" />
-                  </Link>
+                  </Link> */}
                 </div>
 
                 {/* title */}

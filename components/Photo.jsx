@@ -41,6 +41,7 @@ const Photo = () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           {/* #3FA2B9 -> blue flame color */}
+          {/* #A1F2F7 -> Godzilla atomic breath color */}
           {/* #00CAFF -> blue color */}
           <motion.circle
             cx="253"

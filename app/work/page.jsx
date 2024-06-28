@@ -18,7 +18,6 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderntns from "@/components/WorkSliderntns";
-// import WorkSliderbtns from "@/components/WorkSliderntns";
 
 const projects = [
   {
@@ -134,7 +133,7 @@ const Work = () => {
               {/* buttons */}
               <div className="flex items-center gap-4">
                 {/* live project button */}
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank" rel="noopener noreferrer">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -148,7 +147,7 @@ const Work = () => {
                 </Link>
 
                 {/* github project button */}
-                <Link href={project.github}>
+                <Link href={project.github} target="_blank" rel="noopener noreferrer">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[60px] h-[60px] rounded-full bg-white/5 flex justify-center items-center group">
