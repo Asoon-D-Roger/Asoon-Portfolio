@@ -33,7 +33,7 @@ const Home = () => {
                 className="uppercase flex 
                         items-center gap-2"
               >
-                <a href="assets/resume/asoons_resume.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="assets/resume/Asoon's Resume.pdf" target="_blank" rel="noopener noreferrer">
                   <span>Download CV</span>
                 </a>
                 <FiDownload className="text-xl" />
