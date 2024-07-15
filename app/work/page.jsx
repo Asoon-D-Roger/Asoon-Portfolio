@@ -22,8 +22,24 @@ import WorkSliderntns from "@/components/WorkSliderntns";
 const projects = [
   {
     num: "01",
-    category: "Front-End",
+    category: "Chat App",
     title: "Project 1",
+    description:
+      "A real-time chat application built with React.js, utilizing JavaScript, HTML, and CSS for a responsive and interactive user interface, facilitating instant communication between users.",
+    stack: [
+      { name: "React.Js" },
+      { name: "Css 3" },
+      { name: "Html 5" },
+      { name: "JavaScript" },
+    ],
+    image: "/assets/work/chatapplication.png",
+    live: "",
+    github: "https://github.com/Asoon-D-Roger/Chat-Application",
+  },
+  {
+    num: "02",
+    category: "Weather App",
+    title: "Project 2",
     description:
       "The Weather App is a simple and intuitive application that allows users to get real-time weather information for any location. Built using JavaScript, HTML, and CSS, this app fetches weather data from a reliable API and displays it in a user-friendly interface.",
     stack: [
@@ -37,9 +53,9 @@ const projects = [
     github: "https://github.com/Asoon-D-Roger/Weather-App",
   },
   {
-    num: "02",
-    category: "Front-End",
-    title: "Project 2",
+    num: "03",
+    category: "To-Do-List",
+    title: "Project 3",
     description:
       "This project is a simple and intuitive To-Do List application built using HTML, CSS, and JavaScript. The application allows users to manage their daily tasks efficiently by adding, editing, marking as complete, and deleting tasks.",
     stack: [
@@ -53,9 +69,9 @@ const projects = [
     github: "https://github.com/Asoon-D-Roger/To-Do-List",
   },
   {
-    num: "03",
-    category: "Back-End",
-    title: "Project 3",
+    num: "04",
+    category: "Slot Machine",
+    title: "Project 4",
     description:
       "This project is a simple slot machine game developed using JavaScript and Node.js. It allows users to interact with a command-line interface to place bets, choose the number of lines to bet on, and see if they win based on random outcomes.",
     stack: [{ name: "JavaScript" }, { name: "Node.Js" }],
@@ -64,9 +80,9 @@ const projects = [
     github: "https://github.com/Asoon-D-Roger/Slot_Machine-Game",
   },
   {
-    num: "04",
-    category: "Back-End",
-    title: "Project 4",
+    num: "05",
+    category: "Tic-Tac-Toe",
+    title: "Project 5",
     description:
       "Developed a console-based XOX (Tic-Tac-Toe) game using Python, providing a user-friendly interface for two players. Implemented game logic for detecting winning conditions, draw scenarios, and input validation to ensure a smooth and error-free gaming experience.",
     stack: [{ name: "Python" }],
