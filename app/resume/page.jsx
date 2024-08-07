@@ -139,7 +139,7 @@ const skills = {
     },
     {
       icon: <FaBootstrap />,
-      name: "Bootstrap framework",
+      name: "Bootstrap Framework",
     },
     {
       icon: <FaSass />,
@@ -163,19 +163,19 @@ const skills = {
     },
     {
       icon: <FaNodeJs />,
-      name: "Did a project with node.jS",
+      name: "Node.JS",
     },
     {
       icon: <FaReact />,
-      name: "Built my Portfolio with react.js",
+      name: "React.Js",
     },
     {
       icon: <SiTailwindcss />,
-      name: "Built my Portfolio with Tailwind.css",
+      name: "Tailwind.Css",
     },
     {
       icon: <SiNextdotjs />,
-      name: "Built my Portfolio with next.js",
+      name: "Next.Js",
     },
   ],
 };
